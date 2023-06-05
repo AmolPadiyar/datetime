@@ -28,5 +28,5 @@ def get_days():
             return render_template("index.html",msg = other)
         
 if __name__ == "__main__":
-    app.run()
+    app.run(port=8080)
 
